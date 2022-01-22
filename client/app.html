@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="css//style.css">
+</head>
+
+<body>
+    <header class="text-center text-white d-flex masthead mb-5" style="background-image:url('assets/img/image1.jpg');">
+        <div class="container my-auto">
+            <div class="row text-center">
+                <div class="col-lg-10 mx-auto">
+                    <h1 class="text-uppercase"><strong class="text-center" style="font-size: 34px; font-family:cursive;">Get the most accurate
+                            <br>price prediction for your house&nbsp;&nbsp;</strong></h1>
+                </div>
+            </div>
+            <br><br>
+            <div class='input_div'>
+                <div class="col-lg-8 mx-auto">
+                    <p class="text-faded mb-5">This is a Data Science Project that uses Linear Regression to predict house prices </p>
+                </div>
+
+                <!-- contains all the input fields left aligned -->
+                <div class='input_fields_left_aligned'>
+                    <form class="form">
+
+                        <!-- AREA -->
+                        <div class='area'>
+                            <h3 class="text-faded mb-3" style="font-size: large; margin-top: -5%;"> <b>Area (Square
+                                    Feet)</b></h3>
+                            <input class="area" type="text" id="uiSqft" class="floatLabel" name="Squareft" style="border-radius: 15px; text-align: center;" value="1000" margin-top: -1 5%;>
+                        </div>
+                        <br>
+
+                        <!-- BHK -->
+                        <h3 class="text-faded mb-3" style="font-size: large; "> <b>Bedroom</b></h3>
+                        <div class="bhk">
+                            <input type="radio" id="radio-bhk-1" name="uiBHK" value="1" />
+                            <label for="radio-bhk-1">1</label>
+                            <input type="radio" id="radio-bhk-2" name="uiBHK" value="2" checked />
+                            <label for="radio-bhk-2">2</label>
+                            <input type="radio" id="radio-bhk-3" name="uiBHK" value="3" />
+                            <label for="radio-bhk-3">3</label>
+                            <input type="radio" id="radio-bhk-4" name="uiBHK" value="4" />
+                            <label for="radio-bhk-4">4</label>
+                            <input type="radio" id="radio-bhk-5" name="uiBHK" value="5" />
+                            <label for="radio-bhk-5">5</label>
+                        </div>
+                        <br>
+
+                        <!-- bathrooms -->
+                        <h3 class="text-faded mb-3" style="font-size: large;"> <b>Bathroom</b></h3>
+                        <div class="bhk">
+                            <input type="radio" id="radio-bath-1" name="uiBathrooms" value="1" />
+                            <label for="radio-bath-1">1</label>
+                            <input type="radio" id="radio-bath-2" name="uiBathrooms" value="2" checked />
+                            <label for="radio-bath-2">2</label>
+                            <input type="radio" id="radio-bath-3" name="uiBathrooms" value="3" />
+                            <label for="radio-bath-3">3</label>
+                            <input type="radio" id="radio-bath-4" name="uiBathrooms" value="4" />
+                            <label for="radio-bath-4">4</label>
+                            <input type="radio" id="radio-bath-5" name="uiBathrooms" value="5" />
+                            <label for="radio-bath-5">5</label>
+                        </div>
+                        <br>
+
+                        <!-- location -->
+                        <h3 class="text-faded mb-3" style="font-size: large;"> <b>Location</b></h3>
+                        <div class="location">
+                            <select class="location" name="" id="uiLocations">
+                                <div class = ' location' style="color: black;">
+                                    <option style="color: black;">Choose a Location</option>
+                                    <option style="color: black;">Electronic City</option>
+                                    <option style="color: black;">Rajaji Nagar</option>
+                                </div>
+
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class='predict_button_right_aligned'>
+                    <!-- <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+                    <div id="uiEstimatedPrice" class="result"></div> -->
+
+                    <!-- HTML !-->
+                    <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+
+                    <br><br>
+
+                    <hr style="border: solid ; color: rgb(240, 95, 64 , 0.50); border-style: double; max-inline-size:95%; margin-top: 10%;margin: right 0%;" />
+                    <br>
+                    <hr style="border: solid ; color: rgb(240, 95, 64 , 0.50); border-style: double; max-inline-size:95%; margin-top: 0%;" />
+                </div>
+
+
+            </div>
+    </header>
+
+
+</body>
+
+</html>
