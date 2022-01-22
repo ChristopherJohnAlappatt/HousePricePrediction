@@ -130,16 +130,6 @@
 /* Dropdown for location */
 
 
-/* .location {
-    border-radius: 25px;
-    background: white;
-    background-color: linear-gradient(to bottom right, rgb(240, 95, 64), #FF9A5A);
-    color: black;
-    padding: 20px;
-    width: 200px;
-    height: 15px;
-} */
-
 .location {
     border-radius: 25px;
     text-align: center;
@@ -149,4 +139,9 @@
     /* padding: 20px; */
     width: 200px;
     height: 30px;
+}
+
+option{
+    color: black;
+
 }
